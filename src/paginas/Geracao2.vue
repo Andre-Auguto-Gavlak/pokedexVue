@@ -62,7 +62,7 @@ function filtrar(){
         <div class="card" :class="v.types[0].type.name">
             <!-- src dinamico -->
             <img :src="v.sprites.other.home.front_default" >
-            <p>{{ v.name }}</p>
+            <p><b>{{ v.name }}</b></p>
             
         </div>
       </div>
