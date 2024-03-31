@@ -1,0 +1,26 @@
+.card{
+    margin-top: 5%;
+    transition: transform 0.5s;
+    text-align: center;
+}
+
+.card p{
+    font-size: 16px;
+    margin-top: 3%;
+}
+
+.card:hover{
+    /* aumenta a imagem em 10% */
+    transform: scale(1.1, 1.1)
+}
+.grass{
+    backgroud-color: rgb(92, 184, 92) !important;
+}
+.carregamento{
+    text-align: center;
+    
+}
+.pesquisa{
+    margin-top: 5%;
+    margin-bottom: 1%;
+}
